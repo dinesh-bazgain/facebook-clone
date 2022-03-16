@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: whitesmoke;
+    font-family:  Arial;
+}
+.content{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    text-align: center;
+}
+.left h1{
+    font-weight: 700;
+    font-size: 55px;
+    color: rgb(24 119 242);
+    letter-spacing: -2px;
+    position: a;
+}
+.left p{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.right{
+    /* float: right; */
+    /* height: 50vh; */
+    text-align: center;
+    background-color: white;
+    /* margin: 19vh 40vh 0 0; */
+    /* width: 58vh; */
+    /* height: 50vh; */
+    border-radius: 10px;
+    box-shadow: 2px 3px 1vh 0px gray;
+}
+.right-contant{
+    padding: 2vh;
+}
+.right-contant input{
+    border-radius: 5px;
+    margin-top: 1vh;
+    padding: 2vh;
+    font-size: 10px;
+    width: 49vh;
+    height: 3.5vh;
+    border-width: 1px;
+    border-color: silver;
+    border-style: solid;
+    font-size: 15px;
+}
+.login{
+    background-color: rgb(24 119 242);
+    border-color: rgb(24 119 242);
+    padding: 1.7vh;
+    margin-top: 2vh;
+    width: 52vh;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 17px;
+    color: whitesmoke;
+}
+.right-contant p{
+    padding: 2vh 0 4vh 0;
+    font-size: 13px;
+}
+.right-contant p a{
+    text-decoration: none;
+    color: rgb(24 119 242);
+}
+.creat{
+    padding: 0.1rem 1rem;
+    background-color: rgb(14, 185, 14);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 211, 0);
+    height: 7vh;
+    font-weight: bold;
+    font-size: 16px;
+    color: whitesmoke;
+
+}
+.foot{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 12px;
+}
+.content p a:hover{
+    color: rgb(24 119 242);
+}
+.footcnt{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+button{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 772px) {
+    .left {
+        text-align: left;
+        padding-right: 2rem;
+    }
+}
