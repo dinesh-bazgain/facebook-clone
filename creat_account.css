@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: arial;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: rgb(24 119 242);
+}
+h1{
+    color: rgb(24 119 242);
+    font-size: 50px;
+    padding: 5vh 0;
+}
+.content{
+    background-color: white;
+    border: solid silver;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 55vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2vh;
+    margin: 3% 0;
+    box-shadow: 2px 3px 1vh 0px gray;
+}
+h2{
+    padding: 0 0 10px 0;
+    font-size: 30px;
+}
+.content p{
+    padding-bottom: 10px;
+}
+input{
+    margin-top: 1vh;
+    height: 25px;
+    border: solid silver;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 5px;
+}
+.a{
+    float: left;
+    width: 25vh;
+}
+.b{
+    float: right;
+    width: 25vh;
+}
+.c{
+    width: 53vh;
+}
+.d{
+    width: 53vh;
+    margin-bottom: 1vh;
+}
+.birthday{
+    float: left;
+    padding-left: 3px;
+}
+.birthdaybox{
+    padding-left: 4px;
+}
+.birthdate{
+    width: 16vh;
+    margin: 5px 0 5px 0;
+    float: left;
+}
+.month{
+    width: 17vh;
+    height: 37px;
+    border: solid silver;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+    margin-left: 5px;
+}
+.birthyear{
+    width: 16vh;
+    margin: 5px 0;
+}
+.gender{
+    float: left;
+    padding-left: 3px;
+}
+.genderbox{
+    height: 30px;
+    margin-top: 3px;
+    padding-left: 5px;
+    display: flex;
+}
+.genderbox input{
+    float: left;
+    margin-left: 2vh;
+    margin-top: 2px;
+}
+.genderbox p{
+    padding: 8px;
+    margin-left: 0px;
+    padding-left: 0ch;
+}
+.male{
+    width: 17.5vh;
+    height: 30px;
+    border: solid silver;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 3px 0;
+}
+.female{
+    width: 17.5vh;
+    height: 30px;
+    border: solid silver;
+    border-radius: 5px;
+    border-width: 1px;
+    margin: 1px 6px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 3px 0px;
+}
+.custom{
+    width: 17.5vh;
+    height: 30px;
+    border: solid silver;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 3px 0;
+}
+.footer{
+    font-size: 10px;
+    text-align: justify;
+}
+button{
+    padding: 1vh;
+    background-color: rgb(14, 185, 14);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 211, 0);
+    width: 27vh;
+    height: 5vh;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 3vh;
+}

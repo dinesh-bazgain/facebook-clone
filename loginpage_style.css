@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100vh;
+    font-family:  Arial;
+    text-align: center;
+    background-color: whitesmoke;
+}
+h1{
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: -2px;
+    padding: 8vh;
+}
+h1 a{
+    text-decoration: none;
+    color: rgb(24 119 242);
+}
+.info-container{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50vh;
+    background-color: white;
+    margin: 19vh 40vh 0 0;
+    width: 58vh;
+    height: 42vh;
+    border-radius: 10px;
+    box-shadow: 2px 3px 1vh 0px gray;
+    margin: 28vh 0;
+    padding-top: 4vh;
+}
+.info-container p{
+    padding-bottom: 2vh;
+}
+input{
+    border-radius: 5px;
+    margin-top: 1vh;
+    padding: 2vh;
+    font-size: 10px;
+    width: 49vh;
+    height: 3.5vh;
+    border-width: 1px;
+    border-color: silver;
+    border-style: solid;
+    font-size: 15px;
+}
+button{
+    background-color: rgb(24 119 242);
+    border-color: rgb(24 119 242);
+    padding: 1.7vh;
+    margin-top: 2.5vh;
+    width: 52vh;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.foot{
+    padding-top: 4vh;
+    font-size: 14px;
+}
+.foot a{
+    text-decoration: none;
+    color: rgb(24 119 242);
+}

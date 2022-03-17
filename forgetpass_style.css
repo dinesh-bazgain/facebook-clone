@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100vh;
+    font-family: arial;
+}
+.first-container{
+    height: 10vh;
+}
+.first-container h1{
+    float: left;
+    letter-spacing: -2px;
+    padding: 2vh;
+    font-size: 40px;
+}
+h1 a{
+    text-decoration: none;
+    color: rgb(24 119 242);
+}
+.first-container p{
+    float: right;
+    padding: 1.5vh 1vh;
+}
+.first-container button{
+    padding: 2vh 1vh;
+    width: 25vh;
+    font-size: 14px;
+    font-weight: bold;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.login{
+    background-color: rgb(24 119 242);
+    border-color: rgb(24 119 242);
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    color: whitesmoke;  
+}
+.creat{
+    background-color: rgb(14, 185, 14);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 211, 0);
+    color: whitesmoke;
+}
+.second-container{
+    background-color: whitesmoke;
+    height: 80vh;
+}
+.main{
+    background-color: white;
+    height: 35vh;
+    width: 70vh;
+    padding: 2vh 1vh;
+    border: solid silver;
+    border-width: 1px;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 3vh 0px gray;
+}
+.header{
+    text-align: left;
+    padding: 4px 0 20px 2px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.main p{
+    padding: 15px 2px 2px 2px;
+    font-size: 16px;
+}
+input{
+    border-radius: 5px;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    padding: 1.8vh;
+    width: 65vh;
+    height: 3.5vh;
+    border-width: 1px;
+    border-color: silver;
+    border-style: solid;
+    font-size: 15px;
+}
+.main a{
+    float: right;
+    margin-top: 3vh;
+}
+.main button{
+    cursor: pointer;
+    padding: 1vh;
+    margin: 0 3px;
+    width: 75px;
+    height: 30px;
+}
+.cancel{
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    font-weight: 600;
+    color:rgb(83, 94, 83);
+}
+.search{
+    background-color: rgb(24 119 242);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: whitesmoke;
+}
