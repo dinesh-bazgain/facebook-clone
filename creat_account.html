@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create_New_Account</title>
+    <link rel="stylesheet" href="creat_account.css">
+</head>
+<body>
+    <h1><a href="index.html">facebook</a></h1>
+    <div class="content">
+        <h2>Create a New Account</h2>
+        <p>It's quick and easy.</p> <hr>
+        <form action="/test.txt">       
+        <input type="text" placeholder="First Name" class="a" required> <input type="text" class="b" placeholder="Last Name" required> <br>
+        <input type="text" placeholder="Email or Mobile Number" class="c" required><br>
+        <input type="password" placeholder="New Password" required class="d"><br>
+        <label for="birthday" class="birthday">Birthday</label> <br>
+        <div class="birthdaybox">
+            <input type="number" min="1" max="31" placeholder="_ _" required class="birthdate">
+            <select name="Months" id="Months" class="month" required>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+            <input type="number" min="1900" max="2021" placeholder="_ _ _ _" required class="birthyear">
+        </div>
+        <label for="Gender" class="gender">Gender</label><br>
+        <div class="genderbox">
+            <div class="male">
+                <input type="radio" name="my gender"  required><p> Male</p>
+            </div>
+            <div class="female">
+                <input type="radio" name="my gender" required><p>Female</p>
+            </div>
+            <div class="custom">
+                <input type="radio" name="my gender" required><p>Custom</p>
+            </div>
+        </div>
+        <br>
+        <p class="footer">
+            By clicking Sign Up, you agree to our <a href="terms&data_policy.txt">Terms Data Policy</a>
+            and <a href="#">Cookies Policy.</a>You may receive SMS Notification from us and can opt out any time.
+        </p>
+        <button type="submit">Sign Up</button>
+        </form>
+        <a href="login_page.html">Already have an account?</a>
+    </div>
+</body>
+</html>
